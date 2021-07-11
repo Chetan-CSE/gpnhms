@@ -1,0 +1,3 @@
+background-image: radial-gradient(circle, #7eedff, #51dbff, #32c6ff, #46aeff, #7093ff, #6196ff, #5198ff, #3e9aff, #00b7ff, #00d0ff, #00e7fe, #5ffbf1);
+background-image: radial-gradient(circle, #0b4850, #004459, #003e61, #003667, #142b66, #0f2e6a, #09326f, #003573, #004779, #005577, #00616f, #246c68);
+linear-gradient(to left, #63aca8, #4eaaba, #48a6cb, #5d9fd7, #8194d9, #7d90d5, #798dd2, #7589ce, #458cc3, #1c8baf, #1c8796, #35817d);

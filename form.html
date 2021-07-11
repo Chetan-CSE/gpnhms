@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link rel="stylesheet" href="form.css" type="text/css">
+  
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+      <h1 id="top" class="heading"> Hostel Admission Form</h1><br><br>
+    <div class="main">
+    <form class="form-horizontal" id="admission" method="post">
+      
+        <fieldset>
+        
+        <!-- Form Name -->
+        <legend><b>Student Information</b> </legend>
+        <div class="sec1"> 
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="Enter Full Name">Enter  Full Name </label> 
+          <div class="col-md-4">
+          <input id="Enter  Full Name" name="Enter  Full Name" type="text" placeholder="Enter Full Name" class="form-control input-md" required=""size="30 30">
+            
+          </div>
+        </div><br>
+        
+        <!-- Password input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="Enter DOB">Enter DOB</label>
+          <div class="col-md-4">
+            <input id="Enter DOB" name="Enter DOB" type="date" placeholder="Enter DOB" class="form-control input-md" >
+            
+          </div>
+        </div><br>
+        
+        <!-- Select Basic -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="Blood Group">Blood Group</label>
+          <div class="col-md-4">
+            <select id="Blood Group" name="Blood Group" class="form-control1">
+              <option value="1">A-</option>
+              <option value="2">B</option>
+              <option value="3">AB</option>
+              <option value="4">O</option>
+              <option value="5">A+</option>
+              <option value="O+">O+</option>
+            </select>
+          </div>
+        </div><br>
+        
+        <!-- Select Basic -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="Caste Category">Caste Category</label>
+          <div class="col-md-4">
+            <select id="Caste Category" name="Caste Category" class="form-control2">
+              <option value="1">OPEN</option>
+              <option value="2">OBC</option>
+              <option value="3">SC/ST</option>
+              <option value="4">GEN</option>
+              <option value="5">OTHER</option>
+            </select>
+            <br><br>
+
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Enter Full Name">Nationality</label> 
+              <div class="col-md-4">
+              <input id="Nationality" name="Nationality" type="text" placeholder="Nationality" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+
+            <!-- Textarea -->
+             <br> 
+<div class="form-group">
+    <label class="col-md-4 control-label" for="Address For Communication">Address For Communication</label>
+    <div class="col-md-4">                     
+      <textarea class="form-control" id="Address For Communication" name="Address For Communication" placeholder="Enter Address"></textarea>
+    </div>
+  </div><br>
+  
+  <!-- Password input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="Conatact">Contact No. 1</label>
+    <div class="col-md-4">
+      <input id="Conatact" name="Conatact"  placeholder="required" class="form-control input-md" required="">
+      
+          </div>
+        </div><br>
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="Contact Number">Contact No. 2</label>
+          <div class="col-md-4">
+            <input id="Contact Number" name="Contact Number" placeholder="optional" class="form-control input-md" >
+                    </div>
+                  </div>
+                </div><br>
+        
+        </fieldset>
+     
+       
+        
+    
+        <br>
+        <button type="button" class="collapsible">Educational Information</button>
+<div class="content" id="education">
+        
+            <fieldset>
+            
+            <!-- Form Name -->
+            <legend> <b>Educational Information </b></legend>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Pragramme Name">Pragramme Name</label>  
+              <div class="col-md-4">
+              <input id="Pragramme Name" name="Pragramme Name" type="text" placeholder="Pragramme Name" class="form-control input-md" required="">
+                
+              </div>
+            </div><br>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Enrollment Number">Enrollment Number</label>  
+              <div class="col-md-4">
+              <input id="Enrollment Number" name="Enrollment Number" type="text" placeholder="Enrollment Number" class="form-control input-md" required="">
+                
+              </div>
+            </div><br>
+            
+            <!-- Multiple Checkboxes (inline) -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="checkboxes">Year In Which admission is requirred</label>
+              <div class="col-md-4">
+                <label class="checkbox-inline" for="checkboxes-0">
+                  <input type="radio" name="checkboxes" id="checkboxes-0" value="1" checked>
+                  First
+                </label>
+                <label class="checkbox-inline" for="checkboxes-1">
+                  <input type="radio" name="checkboxes" id="checkboxes-1" value="2">
+                  Second
+                </label>
+                <label class="checkbox-inline" for="checkboxes-2">
+                  <input type="radio" name="checkboxes" id="checkboxes-2" value="3">
+                  Third
+                </label>
+              </div>
+            </div><br>
+            <!-- Multiple Checkboxes -->
+<div class="form-group">
+    <label class="col-md-4 control-label" for="Shift">Shift</label>
+    <div class="col-md-4">
+    <div class="checkbox">
+      <label for="Shift-0">
+        <input type="radio" name="Shift" id="Shift-0" value="1" checked>
+        I
+      </label>
+      </div><br>
+    <div class="checkbox">
+      <label for="Shift-1">
+        <input type="radio" name="Shift" id="Shift-1" value="2">
+        II
+      </label>
+      </div>
+    </div>
+  </div><br>
+  
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="No. of course registered">No. of course registered</label>
+    <div class="col-md-4">
+      <input id="No. of course registered" name="No. of course registered" type="number"  placeholder="No. of course registered" class="form-control input-md" required="">
+    <!-- Text input-->
+    <br>  <br>
+<div class="form-group">
+    <label class="col-md-4 control-label" for="Name of last examination appeared">Name of last examination appeared</label>  
+    <div class="col-md-4">
+    <input id="Name of last examination appeared" name="Name of last examination appeared" type="text" placeholder="last examination" class="form-control input-md" required="">
+      
+    </div>
+  </div><br>
+  
+  <!-- Multiple Radios (inline) -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="Result of last examination appeared">Result of last examination appeared</label>
+    <div class="col-md-4"> 
+      <label class="radio-inline" for="Result of last examination appeared-0">
+        <input type="radio" name="Result of last examination appeared" id="Result of last examination appeared-0" value="1" checked="checked">
+        Pass
+      </label> 
+      <label class="radio-inline" for="Result of last examination appeared-1">
+        <input type="radio" name="Result of last examination appeared" id="Result of last examination appeared-1" value="2">
+        Fail
+      </label>
+    </div>
+  </div><br>
+  
+  
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="prependedtext">Mark Obtained in last examination</label>
+    <div class="col-md-4">
+      <div class="input-group">
+
+        <input id="prependedtext" name="prependedtext" class="form-control" placeholder="enter marks" type="text" required="">
+      </div><br>
+   
+<div class="form-group">
+    <label class="col-md-4 control-label" for="Percentage ">Percentage Obtained</label>
+    <div class="col-md-4">
+      <input id="Percentage " name="Percentage " type="text" placeholder=" Enter Percentage" class="form-control input-md">
+
+            </fieldset>
+</div>
+<br><br>
+<button type="button" class="collapsible">Parental/Guardian Information </button>
+
+<div class="content">
+            <fieldset>
+
+                <!-- Form Name -->
+                <legend> <b>Parental/Guardian Information </b></legend>
+                
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="textinput">Father/Mother Name</label>  
+                  <div class="col-md-4">
+                  <input id="textinput" name="textinput" type="text" placeholder="Father/Mother Name" class="form-control input-md">
+                    
+                  </div>
+                </div><br>
+                
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="textinput">Occupation &amp; Designation</label>  
+                  <div class="col-md-4">
+                  <input id="textinput" name="textinput" type="text" placeholder="  Occupation/Designation" class="form-control input-md" required="">
+                    
+                  </div>
+                </div><br>
+                
+                <!-- Password input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="Contact Number">Contact Number</label>
+                  <div class="col-md-4">
+                    <input id="Contact Number" name="Contact Number"  placeholder="Enter Contact Number" class="form-control input-md" required="">
+                    <!-- Textarea -->
+                    <br>  
+                               
+                    <br> <div class="form-group">
+    <label class="col-md-4 control-label" for="Address"> Enter Address</label>
+    <div class="col-md-4">                     
+      <textarea class="form-control" id="Address" name="Address" placeholder="Enter Address"></textarea>
+    </div>
+  </div><br>
+  
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for=" Guardian">Name of Local Guardian</label>  
+    <div class="col-md-4">
+    <input id=" Guardian" name=" Guardian" type="text" placeholder="Name of Local Guardian" class="form-control input-md" required="">
+                     <!-- Textarea -->
+                     <br>  <br>
+<div class="form-group">
+    <label class="col-md-4 control-label" for="Address" > </label>
+    <div class="col-md-4">                     
+      <textarea class="form-control" id="Address" name="Address" placeholder="Enter Address"></textarea>
+    </div>
+  </div><br>
+    <!-- Password input-->
+    <div class="form-group">
+        <label class="col-md-4 control-label" for="Contact Number">Contact No. 1</label>
+        <div class="col-md-4">
+          <input id="Contact Number" name="Contact Number" placeholder="Required" class="form-control input-md" required="">
+                  </div>
+                </div><br>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="Contact Number">Contact No. 2</label>
+                  <div class="col-md-4">
+                    <input id="Contact Number" name="Contact Number" placeholder="optional" class="form-control input-md" >
+                            </div>
+                          </div><br>
+                          <div class="submit"> <button type="submit" name="submit" >   submit</button></div>
+                </fieldset>
+                <br>
+</div>
+
+               
+               
+        
+            
+        
+        </form>
+        <div class="img1">
+        <img src="img33.svg" alt="color scheme left" width="250px "height="250px">
+      </div>
+      <div class="img2">
+        <img src="img26.svg" alt="color scheme left" width="500px "height="500px">
+      </div>
+      <div class="img3">
+        <img src="img35.svg" alt="color scheme left" width="150px "height="150px">
+      </div>
+     
+      <div class="img5">
+        <img src="img34.svg" alt="color scheme left" width="50px "height="50px">
+      </div>
+     
+      
+
+
+
+
+      <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>  
+        
+      
+       
+</body>
+</html>
